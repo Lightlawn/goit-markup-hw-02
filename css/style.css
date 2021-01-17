@@ -3,7 +3,9 @@
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
-
+    --secondary-white-color:  rgba(255, 255, 255, 0.6);
+    --background-dark-color:  #2F303A;
+    --background-light-color:  #F5F4FA;
 }
 
 body {
@@ -11,7 +13,7 @@ body {
 }
 
 .header {
-    background-color: #fff;
+    background-color: var(--primary-white-color);
 }
 
 .logo {
@@ -20,6 +22,7 @@ body {
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .logo-part-one {
@@ -47,6 +50,10 @@ body {
     color: var(--accent-color)
 }
 
+.nav-link.current {
+    color: var(--accent-color)
+}
+
 .contact-link {
     font-weight: 500;
     font-size: 14px;
@@ -61,7 +68,7 @@ body {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-dark-color);
 }
 
 .hero-title {
@@ -121,7 +128,7 @@ body {
 }
 
 .team-section {
-    background-color: #F5F4FA;
+    background-color: var(--background-light-color);
 }
 
 .team-title {
@@ -148,11 +155,11 @@ body {
     line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--background-dark-color);
 }
 
 .footer-address {
@@ -160,7 +167,8 @@ body {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
+    cursor: pointer;
 }
 
 .footer-link {
@@ -168,5 +176,42 @@ body {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--secondary-white-color);
+    cursor: pointer;
+}
+
+.portfolio-section {
+    background-color: var(--primary-white-color);
+}
+
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--background-light-color);
+}
+
+.filter:hover,
+.filter:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color)
+}
+
+.card-type {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color)
 }
