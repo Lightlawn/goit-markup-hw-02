@@ -12,6 +12,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 .header {
     background-color: var(--primary-white-color);
 }
@@ -23,10 +27,11 @@ body {
     line-height: 1.192;
     letter-spacing: 0.03em;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .logo-part-one {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .logo-part-two {
@@ -34,7 +39,7 @@ body {
 }
 
 .logo-part-two-footer {
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
 }
 
 .nav-link {
@@ -42,16 +47,17 @@ body {
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .nav-link.current {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .contact-link {
@@ -59,12 +65,13 @@ body {
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
+    text-decoration: none;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .hero {
@@ -78,7 +85,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
 }
 
 .hero-button {
@@ -91,6 +98,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    text-decoration: none;
 }
 
 .advantages-section {
@@ -103,7 +111,7 @@ body {
     line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .advantage-text {
@@ -111,7 +119,7 @@ body {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 
 .works {
@@ -124,7 +132,7 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .team-section {
@@ -137,7 +145,7 @@ body {
     line-height: 1.166;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .card-title {
@@ -146,7 +154,7 @@ body {
     line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .card-text {
@@ -169,6 +177,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .footer-link {
@@ -178,6 +187,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-white-color);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .portfolio-section {
@@ -192,6 +202,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--background-light-color);
+    text-decoration: none;
 }
 
 .filter:hover,
@@ -200,12 +211,16 @@ body {
     background-color: var(--accent-color);
 }
 
+.portfolio-card {
+    text-decoration: none;
+}
+
 .card-name {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 .card-type {
@@ -213,5 +228,5 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
